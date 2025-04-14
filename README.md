@@ -3,8 +3,8 @@
 
 A beautiful, responsive **photo gallery** built with HTML, CSS, and JavaScript. Showcase your images in a sleek grid layout with lightbox previews and smooth animations.  
 
-![Screenshot of the Photo Gallery App]([your-image-url])  
-*(Replace with your actual screenshot!)*  
+([woo.jpg])  
+
 
 ## 🌟 Features  
 - **Responsive Design**: Works on mobile, tablet, and desktop.  
