@@ -3,7 +3,7 @@
 
 A beautiful, responsive **photo gallery** built with HTML, CSS, and JavaScript. Showcase your images in a sleek grid layout with lightbox previews and smooth animations.  
 
-([woo.jpg])  
+#([woo.jpg])  
 
 
 ## 🌟 Features  
