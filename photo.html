@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photo Gallery | By Sung</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <!-- Parallax Hero Section -->
+    <header class="parallax-hero">
+        <div class="hero-content">
+            <h1>Photo Gallery</h1>
+            <p>View some wonderful images for your PC</p>
+            <a href="#gallery" class="btn-explore">Explore Gallery</a>
+        </div>
+    </header>
+
+    <!-- Gallery Filter Buttons -->
+    <section class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="city">City</button>            <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+    </section>
+
+    <!-- Photo Gallery Grid -->
+    <section id="gallery" class="gallery-grid">
+        <!-- Images will be loaded via JavaScript -->
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+         <img class="lightbox-img" id="lightbox-img" alt="Lightbox Image">
+            <div class="lightbox-nav">
+            <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <p class="lightbox-caption"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Photo Gallery | Designed by <strong>Sung</strong></p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="photo.js"></script>
+</body>
+</html>
